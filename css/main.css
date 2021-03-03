@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/bkgd-locust-grove.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -114,13 +114,15 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     background: #222;
-    background:rgba(0,0,0,0.7);
-    color: #fff;
+    background:rgba(255,255,255,0.7);
+    color: #000;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -138,6 +140,16 @@ body {
     font-family: 'Lora', sans-serif;
 }
 
+#graphics {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+img #half {
+    width: 50%;
+}
 
 
 
